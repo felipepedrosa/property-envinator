@@ -25,10 +25,10 @@ O **Property Envinator** é um plugin para o IntelliJ IDEA que transforma propri
 ---
 
 ## Instalação
-
+1. [Faça o download do plugin (jar) na versão mais atual](https://github.com/felipepedrosa/property-envinator/releases)
 1. Abra o IntelliJ IDEA.
 2. Vá para **File > Settings > Plugins**.
-3. Clique em **Marketplace** e pesquise por **"Property Envinator"**.
+3. Clique em **Marketplace** e clique em **instalar através do disco**
 4. Clique em **Install** e reinicie o IDE.
 
 ---
