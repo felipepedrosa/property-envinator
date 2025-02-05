@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>io.github.felipepedrosa.property-envinator</id>
+    <name>Property-Envinator</name>
+    <vendor url="https://felipepedrosa.github.io/">Felipe Pedrosa</vendor>
+    <depends>com.intellij.modules.platform</depends>
+    <!--    <extensions defaultExtensionNs="com.intellij"></extensions>-->
+    <description><![CDATA[
+       Transforme sua propriedade em uma variável de ambiente!
+    ]]></description>
+    <actions>
+        <action
+                id="io.github.felipepedrosa.propertyenvinator.TransformToEnvVariableAction1"
+                class="io.github.felipepedrosa.propertyenvinator.TransformToEnvVariableAction"
+                text="Envinator - Transformar Para ENV"
+                description="Transforma a propriedade selecionada em variável de ambiente"
+                icon="AllIcons.Actions.Copy">
+            <add-to-group group-id="EditorPopupMenu"/>
+        </action>
+    </actions>
+</idea-plugin>
